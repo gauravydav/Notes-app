@@ -70,7 +70,7 @@ const RegistrationForm = () => {
           fullWidth
           onClick={handleRegistration}
           style={{ margin: '20px 0' }}
-          disabled={loading} // Disable the button during loading
+          disabled={loading} 
         >
           {loading ? <CircularProgress size={24} /> : 'Register'}
         </Button>
