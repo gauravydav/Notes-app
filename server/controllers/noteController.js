@@ -7,7 +7,7 @@ const handleServerError = (res, error) => {
 
 const getNotes = async (req, res) => {
   try {
-    const notes = await Note.find({ user: req.user.user._id });
+    const notes = await Note.find({ user: req.user.user._id }).sort({ _id: -1 });
     res.json(notes);
   } catch (error) {
     handleServerError(res, error);
