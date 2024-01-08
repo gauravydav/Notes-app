@@ -47,11 +47,14 @@ Installation
 1.Open a terminal and navigate to the backend directory.
 ```bash
 cd backend
+```
 
 2.Install dependencies.
 ```bash
 npm install
+```
 
 3.Start the server using nodemon.
 ```bash
 nodemon server.js
+```
