@@ -4,9 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "postinstall": "npm rebuild bcrypt --build-from-source --unsafe-perm"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    
+    "build": "npm install && node server.js"
   },
-  
   "keywords": [],
   "author": "",
   "license": "ISC",
