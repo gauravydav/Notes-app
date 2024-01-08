@@ -18,17 +18,20 @@ Make sure you have Node.js and npm installed on your machine.
 
    ```bash
    cd frontend
+   ```
   
 
   1:Install dependecies 
 
   ```bash
   npm install
+  ```
 
 
   2:Start the development server.
    ```bash
    npm start
+   ```
 
 # Backend
 This repository contains the backend for the Notes App.
