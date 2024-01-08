@@ -17,7 +17,7 @@ Make sure you have Node.js and npm installed on your machine.
 1. Open a terminal and navigate to the frontend directory.
 
    ```bash
-   cd frontend
+   cd client
    ```
   
 
@@ -46,7 +46,7 @@ Make sure you have Node.js and npm installed on your machine.
 Installation
 1.Open a terminal and navigate to the backend directory.
 ```bash
-cd backend
+cd server
 ```
 
 2.Install dependencies.
